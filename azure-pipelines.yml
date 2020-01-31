@@ -4,7 +4,9 @@
 # https://docs.microsoft.com/en-us/azure/devops/pipelines/languages/dotnet-core
 
 trigger:
-- master
+  branches:
+    include:
+    - '*'
 
 variables:
   # Azure Resource Manager connection created during pipeline creation
