@@ -6,7 +6,7 @@ resources:
   repositories:
   - repository: TestRepo 
     type: github
-    endpoint: github.com
+    endpoint: Azure Pipelines
     name: conso/EasyBdd
 
 trigger:
