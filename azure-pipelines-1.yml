@@ -6,8 +6,7 @@ resources:
   repositories:
   - repository: TestRepo 
     type: github
-    endpoint: Azure Pipelines
-    name: conso/EasyBdd
+    name: conso/spikeTest
 
 trigger:
   branches:
