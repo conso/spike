@@ -6,7 +6,7 @@ resources:
   repositories:
   - repository: TestRepo 
     type: github
-    endpoint: conso
+    endpoint: github.com_conso
     name: conso/spikeTest
 
 trigger:
